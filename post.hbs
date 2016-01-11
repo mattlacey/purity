@@ -5,11 +5,8 @@
 {{! Everything inside the #post tags pulls data from the post }}
 
 <main class="content" role="main" id="top-post">
-        <div class="back">
-            <a href="{{@blog.url}}">&larr;  back to the home page</a>
-        </div>
 
-    <article itemscope itemtype="http://schema.org/Article" class="{{post_class}} purity_post">
+    <article itemscope itemtype="http://schema.org/Article" class="{{post_class}} purity_post full-post">
 
         {{#post}}
 

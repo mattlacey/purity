@@ -1,9 +1,10 @@
 a {
-    color: rgb(142, 142, 214);
+    color: #58b;
 }
 
 .sidebar {
-    background: rgb(24, 33, 61);
+	box-shadow: 0px 0px 32px #136;
+    background: #eca724;
     color: #fff;
 }
 .sidebar a {
@@ -16,7 +17,7 @@ a {
         color: #fff;
     }
     .blog-description {
-        color: rgb(142, 142, 214);
+        color: #fff;
     }
     #blog-logo img {
         margin-bottom: 1em;
@@ -38,8 +39,15 @@ a {
 .featured{ 
     background: rgb(244, 244, 251);
 }
+.container {
+	background-color: #369;
+}
+article.full-post {
+	box-shadow: 0px 0px 32px #136;
+}
 section.post {
-    border-bottom: 1px solid rgba(142, 142, 214, 0.3);
+	background-color: #fff;
+	box-shadow: 0px 0px 32px #136;
 }
     
     .back a {
@@ -51,7 +59,7 @@ section.post {
         border-bottom: 1px solid #eee;
     }
     .post-title {
-        color: rgb(142, 142, 214);
+        color: #58b;
     }
     .post-description, .post-content {
         color: #444;
@@ -67,7 +75,8 @@ section.post {
         /*border-top: 1px solid rgb(103, 103, 180);*/
     }
     .post-share-box {
-        border: 1px solid rgba(142, 142, 214, 0.5);
+        border-top: 4px solid #369;
+        border-bottom: 4px solid #369;
     }
         .share a:hover {
             color: rgba(142, 142, 214, 0.7);
@@ -77,10 +86,10 @@ section.post {
     }
 
 .footer {
-    color: #aaa;
+    color: #eee;
 }
     .footer a {
-        color: #ccc;
+        color: #fff;
     }
     .footer .pure-menu a:hover,
     .footer .pure-menu a:focus {
